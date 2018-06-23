@@ -6,9 +6,18 @@
   "author": "Eirik Birkeland <birketrans@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@cypress/webpack-preprocessor": "^2.0.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "bootstrap": "^4.1.1",
+    "css-loader": "^0.28.11",
     "cypress": "^3.0.1",
+    "cypress-react-unit-test": "^1.2.1",
     "react": "^16.4.1",
     "react-bootstrap": "^0.32.1",
-    "reactdom": "^2.0.0"
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1"
+  },
+  "dependencies": {
+    "react-dom": "^16.4.1"
   }
 }
